@@ -1,48 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Registration Form</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Home Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Online Registration Form</h1>
-        <form id="registrationForm" method="POST" action="submit.php">
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" required>
-
-            <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob" name="dob" required>
-
-            <label for="gender">Gender:</label>
-            <select id="gender" name="gender" required>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="Other">Other</option>
-            </select>
-
-            <button type="submit" id="submitBtn">Submit</button>
-        </form>
-        
-        <div id="formOutput" style="display:none;">
-            <h2>Form Submission Successful!</h2>
-            <p><strong>Full Name:</strong> <span id="outName"></span></p>
-            <p><strong>Email Address:</strong> <span id="outEmail"></span></p>
-            <p><strong>Phone Number:</strong> <span id="outPhone"></span></p>
-            <p><strong>Date of Birth:</strong> <span id="outDob"></span></p>
-            <p><strong>Gender:</strong> <span id="outGender"></span></p>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
+<div class = "about-wrapper">
+<div class = "about-left">
+<div class = "about-left-content">
+<div>
+<div class = "shadow">
+<div class = "about-img">
+<img src = "./logo.png" alt = "about image">
+</div>
+</div>
+<h2>Sapthagiri<br>College</h2>
+<h3>Nps University</h3>
+</div>
+</div>
+</div>
+<div class = "about-right">
+<h1>Sapthagiri College of Engineering</h1>
+<h2>Web Technology Lab</h2>
+<div class = "about-btns">
+<button type = "button" class = "btn btn-pink"><a href="./assets/names.html">RESUME</a></button>
+  </div>
+<div class = "about-para">
+<p>Vision:To be a best institution imparting quality engineering education to deal with community needs through learning and performance.</p>
+</div>
+</div>
+</div>
 </body>
 </html>
